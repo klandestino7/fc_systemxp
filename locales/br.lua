@@ -1,0 +1,16 @@
+Locales['br'] = {
+  ['shop_robbery'] = 'Loja roubavel',
+  ['press_to_rob'] = 'Pressione ~INPUT_CONTEXT~ para ~o~roubar~s~ ~b~%s~s~',
+  ['robbery_timer'] = 'Roubo termina em : ~r~%s~s~ segundos',
+  ['recently_robbed'] = 'Estabelecimento foi recentemente roubada, espere ~y~%s~s~ segundos para roubar novamente',
+  ['rob_in_prog'] = '~r~Roubo em andamento ~b~%s~s~',
+  ['started_to_rob'] = 'Você começou a roubar ~y~%s~s~',
+  ['alarm_triggered'] = 'O alarme foi acionado',
+  ['robbery_complete'] = '~r~O assalto foi bem sucedido~s~, você ~o~roubou~s~ ~g~$%s~s~',
+  ['robbery_complete_at'] = '~r~Roubo bem sucedido em ~y~%s~s~',
+  ['robbery_cancelled'] = 'O assalto foi cancelado!',
+  ['robbery_cancelled_at'] = '~r~O roubo em ~b~%s~s~ foi cancelado!',
+  ['min_police'] = 'Deve haver pelo menos ~b~%s Policiais~s~ na cidade para poder roubar.',
+  ['robbery_already'] = '~r~Um assalto já está em andamento.',
+  ['no_threat'] = 'você não representa uma ameaça para o dono do Estabelecimento',
+}
