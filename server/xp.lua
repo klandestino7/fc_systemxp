@@ -69,5 +69,23 @@ AddEventHandler('fcxp:systemxp', function (id, count, cb)
 end)
 end) 
 
+-- Loss of 20% of XP if you die   (call the event in client side).
+RegisterServerEvent("fcxp:xpremovedeath")
+AddEventHandler('fcxp:xpremovedeath', function (id, count, cb)
+	local _source = tonumber(source)
+		TriggerEvent('redemrp:getPlayerFromId', _source, function(user)
+
+		local xpBalance = user.getXP()
+		print(xpBalance)
+		local xpperda = tonumber(xpBalance*0.8)
+		--print(user.getIdentifier())
+			if user == nil then
+				print("Admin command Feedback: this user doesnt exist")
+			else
+				user.setXP(tonumber(xpperda))
+			end
+		end)
+end)
+
 
 
