@@ -76,7 +76,6 @@ AddEventHandler('fcxp:xpremovedeath', function (id, count, cb)
 		TriggerEvent('redemrp:getPlayerFromId', _source, function(user)
 
 		local xpBalance = user.getXP()
-		print(xpBalance)
 		local xpperda = tonumber(xpBalance*0.8)
 		--print(user.getIdentifier())
 			if user == nil then
